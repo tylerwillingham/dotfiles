@@ -1,15 +1,15 @@
 execute pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails' " Easier navigation within Rails apps
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'tpope/vim-fugitive' " Git
-Plug 'tpope/vim-rhubarb' " GitHub for Fugitive
-Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
-Plug 'vim-scripts/ruby-matchit' " Idk if this is working actually...
 Plug 'terryma/vim-multiple-cursors' " I should look into this again
+Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
+Plug 'tpope/vim-fugitive' " Git
+Plug 'tpope/vim-rails' " Easier navigation within Rails apps
+Plug 'tpope/vim-rhubarb' " GitHub for Fugitive
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-scripts/ruby-matchit' " Idk if this is working actually...
 Plug 'vim-syntastic/syntastic' " Inline Linting
 call plug#end()
 
