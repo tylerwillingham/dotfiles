@@ -53,6 +53,7 @@ filetype plugin indent on
 
 set textwidth=100
 set colorcolumn=+1
+set cursorline
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
