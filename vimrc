@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
+Plug 'janko-m/vim-test'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors' " I should look into this again
