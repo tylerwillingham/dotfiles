@@ -8,6 +8,7 @@ Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
 Plug 'tpope/vim-fugitive' " Git
 Plug 'tpope/vim-rails' " Easier navigation within Rails apps
 Plug 'tpope/vim-rhubarb' " GitHub for Fugitive
+Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/ruby-matchit' " Idk if this is working actually...
 Plug 'vim-syntastic/syntastic' " Inline Linting
