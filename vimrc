@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
+Plug 'airblade/vim-gitgutter'
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
 Plug 'janko-m/vim-test'
