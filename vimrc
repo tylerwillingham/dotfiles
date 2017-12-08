@@ -76,6 +76,9 @@ nnoremap tm :tabm
 
 let mapleader = ' '
 
+" Switch b/w last two files
+nnoremap <Leader><Leader> <c-^>
+
 map <Leader>ak :Ack 
 map <Leader>F :Files<return>
 map <Leader>li :SyntasticCheck<return>
