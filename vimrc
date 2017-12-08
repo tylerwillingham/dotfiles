@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
+Plug 'flazz/vim-colorschemes'
 Plug 'janko-m/vim-test'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
