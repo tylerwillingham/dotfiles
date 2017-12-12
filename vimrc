@@ -7,6 +7,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'janko-m/vim-test'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'pbrisbin/vim-mkdir'
 Plug 'terryma/vim-multiple-cursors' " I should look into this again
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
