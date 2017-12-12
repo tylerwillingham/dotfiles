@@ -82,8 +82,9 @@ let mapleader = ' '
 " Switch b/w last two files
 nnoremap <Leader><Leader> <c-^>
 
-map <Leader>ak :Ack 
 map <Leader>F :Files<return>
+map <Leader>ak :Ack 
+map <Leader>em :Emodel 
 map <Leader>li :SyntasticCheck<return>
 map <Leader>lo :lopen<return>
 map <Leader>tf :TestFile<return>
