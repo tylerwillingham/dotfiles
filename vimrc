@@ -57,7 +57,7 @@ set list listchars=tab:»·,trail:·,nbsp:·
 syntax on
 filetype plugin indent on
 
-set textwidth=100
+set textwidth=80
 set colorcolumn=+1
 set cursorline
 
