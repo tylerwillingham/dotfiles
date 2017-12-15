@@ -13,6 +13,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
 Plug 'tpope/vim-fugitive' " Git
 Plug 'tpope/vim-rails' " Easier navigation within Rails apps
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rhubarb' " GitHub for Fugitive
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
