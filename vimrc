@@ -7,6 +7,8 @@ Plug 'flazz/vim-colorschemes'
 Plug 'janko-m/vim-test'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'terryma/vim-multiple-cursors' " I should look into this again
 Plug 'tpope/vim-commentary'
@@ -87,6 +89,8 @@ nnoremap <Leader><Leader> <c-^>
 map <Leader>F :Files<return>
 map <Leader>ak :Ack 
 map <Leader>em :Emodel 
+map <Leader>gi :Gist -a<return>
 map <Leader>li :SyntasticCheck<return>
 map <Leader>lo :lopen<return>
+map <Leader>src :source ~/.vimrc<return>
 map <Leader>tf :TestFile<return>
