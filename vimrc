@@ -94,3 +94,4 @@ map <Leader>li :SyntasticCheck<return>
 map <Leader>lo :lopen<return>
 map <Leader>src :source ~/.vimrc<return>
 map <Leader>tf :TestFile<return>
+map <Leader>tl :TestLast<return>
