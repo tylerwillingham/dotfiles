@@ -79,6 +79,7 @@ let test#strategy = 'vtr'
 " Switch b/w last two files
 nnoremap <Leader><Leader> <c-^>
 
+map <Leader><Tab> :w<return>
 map <Leader>F :GFiles<return>
 map <Leader>ak :Ack 
 map <Leader>em :Emodel 
