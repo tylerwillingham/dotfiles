@@ -72,6 +72,7 @@ source $ZSH/oh-my-zsh.sh
 alias c="clear;"
 alias be="bundle exec"
 alias bc="bin/rails c"
+alias pr="powder restart"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
