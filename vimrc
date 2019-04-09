@@ -67,6 +67,9 @@ nnoremap th gT
 nnoremap tx :tabclose<return>
 nnoremap tm :tabm 
 
+" Highlight search results
+set hlsearch
+
 let mapleader = ' '
 
 " Switch b/w last two files
@@ -81,3 +84,4 @@ map <Leader>lo :lopen<return>
 map <Leader>src :source ~/.vimrc<return>
 map <Leader>tf :TestFile<return>
 map <Leader>tl :TestLast<return>
+map <Leader>/ :noh<return>
