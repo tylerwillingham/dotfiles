@@ -74,7 +74,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
 " Better tabs
-inoremap jk <esc>
+" inoremap jk <esc>
 nnoremap tn :tabedit .<return>
 nnoremap tl gt
 nnoremap th gT
