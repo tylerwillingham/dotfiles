@@ -1,10 +1,7 @@
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
 export EDITOR='vim'
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/tylerwillingham/.oh-my-zsh
@@ -79,3 +76,4 @@ alias bc="bin/rails c"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source $HOME/.zshenv
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
