@@ -2,6 +2,7 @@ execute pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
+Plug 'christoomey/vim-tmux-runner'
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
 Plug 'janko-m/vim-test'
@@ -72,6 +73,9 @@ set hlsearch
 
 let mapleader = ' '
 
+" vim-test strategy
+let test#strategy = 'vtr'
+
 " Switch b/w last two files
 nnoremap <Leader><Leader> <c-^>
 
@@ -84,4 +88,6 @@ map <Leader>lo :lopen<return>
 map <Leader>src :source ~/.vimrc<return>
 map <Leader>tf :TestFile<return>
 map <Leader>tl :TestLast<return>
+map <Leader>tn :TestNearest<return>
+map <Leader>tv :TestVisit<return>
 map <Leader>/ :noh<return>
