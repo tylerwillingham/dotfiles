@@ -10,6 +10,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/gist-vim'
 Plug 'mattn/webapi-vim'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'terryma/vim-multiple-cursors' " I should look into this again
 Plug 'tpope/vim-commentary'
