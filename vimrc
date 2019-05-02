@@ -2,6 +2,7 @@ execute pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
+Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-tmux-runner'
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
@@ -24,6 +25,8 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/ruby-matchit' " Idk if this is working actually...
 call plug#end()
+
+colorscheme base16-eighties
 
 set wildmenu
 set wildmode=longest,full,full
