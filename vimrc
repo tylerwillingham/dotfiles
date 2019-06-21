@@ -25,7 +25,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rhubarb' " GitHub for Fugitive
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
-Plug 'vim-scripts/ruby-matchit' " Idk if this is working actually...
+Plug 'tmhedberg/matchit'
 call plug#end()
 
 colorscheme base16-eighties
