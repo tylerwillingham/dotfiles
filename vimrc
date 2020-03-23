@@ -90,7 +90,7 @@ nnoremap <Leader><Leader> <c-^>
 
 map <Leader><Tab> :w<return>
 map <Leader>F :GFiles<return>
-map <Leader>ak :Ack 
+map <Leader>ak :Ack! 
 map <Leader>em :Emodel 
 map <Leader>gi :Gist -a<return>
 map <Leader>li :SyntasticCheck<return>
