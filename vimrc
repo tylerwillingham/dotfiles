@@ -69,11 +69,13 @@ nnoremap <C-l> <C-w>l
 
 " Better tabs
 " inoremap jk <esc>
-nnoremap tn :tabedit .<return>
-nnoremap tl gt
+nnoremap tc :tabedit .<return>:tabo!<return>
 nnoremap th gT
-nnoremap tx :tabclose<return>
+nnoremap tl gt
 nnoremap tm :tabm 
+nnoremap tn :tabedit .<return>
+nnoremap to :tabo<return>
+nnoremap tx :tabclose<return>
 
 " Highlight search results
 set hlsearch
