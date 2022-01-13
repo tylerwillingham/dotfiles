@@ -12,6 +12,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 Plug 'christoomey/vim-tmux-runner'
 Plug 'janko-m/vim-test'
+Plug 'numToStr/Comment.nvim' " line commenting for neovim
 Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
 Plug 'tpope/vim-rails' " Easier navigation within Rails apps
 Plug 'tpope/vim-surround'
@@ -19,6 +20,7 @@ call plug#end()
 
 lua << END
 -- I'm going to try to use lua for config as much as possible...
+require('Comment').setup()
 require('lualine').setup()
 require('lsp')
 
