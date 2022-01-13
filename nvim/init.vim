@@ -70,13 +70,10 @@ nnoremap <Leader><Leader> <c-^>
 
 map <Leader><Tab> :w<return>
 map <Leader>s :sort<return>
-" map <Leader>F :GFiles<return>
-" map <Leader>ak :Ack! 
 map <Leader>em :Emodel 
-" map <Leader>gi :Gist -a<return>
 map <Leader>lo :lopen<return>
-" map <Leader>tf :TestFile<return>
-" map <Leader>tl :TestLast<return>
-" map <Leader>tn :TestNearest<return>
-" map <Leader>tv :TestVisit<return>
+map <Leader>tf :TestFile<return>
+map <Leader>tl :TestLast<return>
+map <Leader>tn :TestNearest<return>
+map <Leader>tv :TestVisit<return>
 map <Leader>/ :noh<return>
