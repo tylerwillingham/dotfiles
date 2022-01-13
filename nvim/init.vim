@@ -36,6 +36,9 @@ vim.o.smartindent = true
 vim.o.textwidth = 100
 vim.o.colorcolumn = "+1"
 vim.o.cursorline = true
+
+vim.o.splitbelow = true -- open new vertical splits below the current
+vim.o.splitright = true -- open new horizontal splits to the right of the current
 END
 
 " Telescope commands
