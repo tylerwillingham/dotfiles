@@ -10,10 +10,11 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 
-Plug 'tpope/vim-surround'
-
 Plug 'christoomey/vim-tmux-runner'
 Plug 'janko-m/vim-test'
+Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
+Plug 'tpope/vim-rails' " Easier navigation within Rails apps
+Plug 'tpope/vim-surround'
 call plug#end()
 
 lua << END
