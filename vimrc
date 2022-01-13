@@ -23,6 +23,7 @@ Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'terryma/vim-multiple-cursors' " I should look into this again
+Plug 'tmhedberg/matchit'
 Plug 'townk/vim-autoclose'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
@@ -32,7 +33,6 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rhubarb' " GitHub for Fugitive
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
-Plug 'tmhedberg/matchit'
 call plug#end()
 
 colorscheme base16-eighties
