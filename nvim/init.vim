@@ -28,6 +28,7 @@ Plug 'numToStr/Comment.nvim' " line commenting for neovim
 Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
 Plug 'tpope/vim-rails' " Easier navigation within Rails apps
 Plug 'tpope/vim-surround'
+Plug 'mxw/vim-jsx' " It would be nice to find a lsp-supporting jsx syntax highlighter
 call plug#end()
 
 lua << END
