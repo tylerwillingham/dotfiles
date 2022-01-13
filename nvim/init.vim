@@ -82,6 +82,8 @@ nnoremap tn :tabedit .<return>
 nnoremap to :tabo<return>
 nnoremap tx :tabclose<return>
 
+let test#strategy = 'vtr'
+
 " Switch b/w last two files
 nnoremap <Leader><Leader> <c-^>
 
