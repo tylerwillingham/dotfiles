@@ -39,6 +39,19 @@ require('autocompletion')
 require('Comment').setup()
 require('lualine').setup()
 
+require('telescope').setup{
+  defaults = {
+    file_ignore_patterns = {
+      "node_modules",
+      "vendor/*",
+      "tmp/*",
+      "log/*",
+      "frontend/src/__mocks__/requests/*",
+      "public/*"
+    }
+  }
+}
+
 vim.g.mapleader = ' '
 
 vim.o.numberwidth = 5
