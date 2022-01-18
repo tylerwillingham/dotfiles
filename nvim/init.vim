@@ -5,6 +5,7 @@ Plug 'neovim/nvim-lspconfig'
 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 
 " Remember to install nerd-patched font
 Plug 'nvim-lualine/lualine.nvim'
@@ -49,8 +50,19 @@ require('telescope').setup{
       "frontend/src/__mocks__/requests/*",
       "public/*"
     }
+  },
+  extensions = {
+    fzf = {
+      fuzzy = true,                   -- false will only do exact matching
+      override_generic_sorter = true, -- override generic sorter
+      override_file_sorter = true,    -- override file sorter
+      case_mode = "smart_case",       -- or "ignore_case" or "respect_case"
+    }
   }
 }
+
+-- load fzf with telescope
+require('telescope').load_extension('fzf')
 
 vim.g.mapleader = ' '
 
