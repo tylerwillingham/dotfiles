@@ -5,6 +5,10 @@
 - **Font of choice:** [FiraCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 - **iTerm 2 theme:** [TokyoNight - Storm](https://github.com/folke/tokyonight.nvim/blob/main/extras/iterm_tokyonight_storm.itermcolors)
 
+- Instal dependencies for telescope:
+  - ripgrep - `brew install ripgrep`
+  - fd - `brew install fd`
+
 - Install LSPs
   + Ruby via [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solargraph)
   + Javascript (and typescript) via [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver)
