@@ -19,3 +19,11 @@ if command -v tmux &> /dev/null; then
 else
   echo "⚠️ tmux is not installed, skipping configuration"
 fi
+
+echo "∙ Overriding neovim config"
+ln -fs "$PWD/nvim" "$HOME/.config/nvim"
+
+if ! command -v solargraph &> /dev/null; then
+  echo "💎 Installing solargraph"
+  sh -c "gem install --user solargraph"
+fi
