@@ -47,8 +47,7 @@ require('telescope').setup{
       "vendor/*",
       "tmp/*",
       "log/*",
-      "frontend/src/__mocks__/requests/*",
-      "public/*"
+      "sorbet/*",
     }
   },
   extensions = {
