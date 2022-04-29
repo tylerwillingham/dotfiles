@@ -25,5 +25,10 @@ ln -fs "$PWD/nvim" "$HOME/.config/nvim"
 
 if ! command -v solargraph &> /dev/null; then
   echo "💎 Installing solargraph"
-  sh -c "gem install --user solargraph"
+  sh -c "gem install solargraph"
+fi
+
+if ! command -v sorbet &> /dev/null; then
+  echo "💎 Installing sorbet"
+  sh -c "gem install sorbet"
 fi
