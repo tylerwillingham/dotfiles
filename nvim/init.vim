@@ -11,6 +11,9 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 
+" Prettier linter/fixer
+Plug 'dense-analysis/ale'
+
 " begin autocompletion support
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -120,3 +123,9 @@ map <Leader>tl :TestLast<return>
 map <Leader>tn :TestNearest<return>
 map <Leader>tv :TestVisit<return>
 map <Leader>/ :noh<return>
+
+let g:ale_fixers = {
+\  'javascript': ['prettier'],
+\  'css': ['prettier'],
+\}
+let g:ale_fix_on_save = 1
