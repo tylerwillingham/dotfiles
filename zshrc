@@ -74,7 +74,6 @@ alias be="bundle exec"
 alias bc="bin/rails c"
 alias cbc="clear;bin/rails c"
 alias pr="powder restart"
-alias gpf="git push --force"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
