@@ -176,8 +176,9 @@ formatters.setup {
 --     },
 -- }
 lvim.plugins = {
+  { "f-person/git-blame.nvim" },
   { "github/copilot.vim" },
-  { "f-person/git-blame.nvim" }
+  { "tpope/vim-rails" }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
