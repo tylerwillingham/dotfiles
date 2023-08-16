@@ -1,0 +1,7 @@
+[user]
+	name = Tyler Willingham
+	email = 171991+tylerwillingham@users.noreply.github.com
+[commit]
+	gpgsign = true
+[rebase]
+	autosquash = true
