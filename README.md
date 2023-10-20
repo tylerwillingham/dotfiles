@@ -1,5 +1,6 @@
 # Tyler Willingham's dotfiles
 
+
 ## Prerequisite downloads
 
 - **Font of choice:** [FiraCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
