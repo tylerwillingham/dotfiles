@@ -7,3 +7,5 @@
 	autosquash = true
 [pull]
 	rebase = true
+[core]
+	editor = lvim
