@@ -52,7 +52,7 @@ ZSH_THEME="wezm"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/ # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(asdf git common-aliases)
+plugins=(asdf bundler git common-aliases)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -70,7 +70,6 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 alias c="clear;"
-alias be="bundle exec"
 alias bc="bin/rails c"
 alias cbc="clear;bin/rails c"
 alias pr="powder restart"
