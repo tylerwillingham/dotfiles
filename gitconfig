@@ -9,6 +9,7 @@
 	rebase = true
 [core]
 	editor = lvim
+	excludesfile = /Users/tyler.willingham/.gitignore
 [init]
 	defaultBranch = main
 [commit]
