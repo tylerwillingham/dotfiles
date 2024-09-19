@@ -1,0 +1,107 @@
+{
+  "editor.tabSize": 2,
+  "window.zoomLevel": 1,
+  "files.trimTrailingWhitespace": true,
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "workbench.colorTheme": "Tokyo Night",
+  "explorer.confirmDelete": false,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "vscode-run-rspec-file.custom-command": "bin/rspec",
+  "workbench.settings.applyToAllProfiles": [
+    "vscode-run-rspec-file.custom-command"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "[ruby]": {
+    "editor.formatOnSave": true
+  },
+  "rubyLsp.featuresConfiguration": {},
+  "githubPullRequests.pullBranch": "never",
+  "sorbet.lspConfigs": [
+    {
+      "id": "stable",
+      "name": "Sorbet",
+      "description": "Stable Sorbet Ruby IDE features",
+      "cwd": "${workspaceFolder}",
+      "command": ["bundle", "exec", "srb", "typecheck", "--lsp"]
+    },
+    {
+      "id": "beta",
+      "name": "Sorbet (Beta)",
+      "description": "Beta Sorbet Ruby IDE features",
+      "cwd": "${workspaceFolder}",
+      "command": [
+        "bundle",
+        "exec",
+        "srb",
+        "typecheck",
+        "--lsp",
+        "--enable-all-beta-lsp-features"
+      ]
+    },
+    {
+      "id": "experimental",
+      "name": "Sorbet (Experimental)",
+      "description": "Experimental Sorbet Ruby IDE features (warning: crashy, for developers only)",
+      "cwd": "${workspaceFolder}",
+      "command": [
+        "bundle",
+        "exec",
+        "srb",
+        "typecheck",
+        "--lsp",
+        "--enable-all-experimental-lsp-features"
+      ]
+    }
+  ],
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "signatureHelp": true
+  },
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "auto"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.startupEditor": "none",
+  "datadog.telemetry.setup.enableTelemetry": "enabled",
+  "datadog.staticAnalysis.setup.onboarding.excludedLanguages": [
+    "TYPESCRIPT",
+    "RUBY"
+  ],
+  "editor.formatOnSave": true,
+  "datadog.staticAnalysis.notification.suppressOnboarding": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "sorbet.enabled": true,
+  "sorbet.highlightUntyped": "everywhere-but-tests",
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
