@@ -5,6 +5,8 @@
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools"
   },
+  "dotfiles.repository": "tylerwillingham/dotfiles",
+  "dotfiles.targetPath": "~/dotfiles",
   "workbench.colorTheme": "Tokyo Night",
   "explorer.confirmDelete": false,
   "files.insertFinalNewline": true,
