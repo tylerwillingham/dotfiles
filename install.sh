@@ -1,5 +1,11 @@
 echo "========== INSTALLING tylerwillingham/dotfiles =========="
 
+if command -v apt-get &> /dev/null; then
+  ./linux-install.sh
+else
+  ./macos-install.sh
+fi
+
 if [ ! -d $HOME/.oh-my-zsh ]; then
   echo "∙ Installing oh-my-zsh"
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
