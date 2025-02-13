@@ -12,5 +12,3 @@
 	excludesfile = /Users/tyler.willingham/.gitignore
 [init]
 	defaultBranch = main
-[commit]
-	gpgsign = true
