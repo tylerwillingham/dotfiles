@@ -8,7 +8,7 @@
 [pull]
 	rebase = true
 [core]
-	editor = lvim
+	editor = nvim
 	excludesfile = /Users/tyler.willingham/.gitignore
 [init]
 	defaultBranch = main
