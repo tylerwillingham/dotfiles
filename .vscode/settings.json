@@ -13,7 +13,8 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "vscode-run-rspec-file.custom-command": "bin/rspec",
   "workbench.settings.applyToAllProfiles": [
-    "vscode-run-rspec-file.custom-command"
+    "vscode-run-rspec-file.custom-command",
+    "dotfiles.repository"
   ],
   "explorer.confirmDragAndDrop": false,
   "[ruby]": {
@@ -105,5 +106,7 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dotfiles.repository": "tylerwillingham/dotfiles"
   }
 }
