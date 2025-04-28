@@ -74,6 +74,8 @@ alias bc="bin/rails c"
 alias cbc="clear;bin/rails c"
 alias pr="powder restart"
 
+alias gt="git town"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 if type brew &>/dev/null; then
