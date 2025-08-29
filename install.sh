@@ -26,8 +26,13 @@ else
   echo "⚠️ tmux is not installed, skipping configuration"
 fi
 
-echo "∙ Overriding neovim config"
-ln -fs "$PWD/nvim" "$HOME/.config/nvim"
+if [ ! -f "$HOME/.gitconfig" ]; then
+  echo "∙ Setting up git configuration"
+  ln -fs "$PWD/gitconfig" "$HOME/.gitconfig"
+else
+  echo "⚠️ ~/.gitconfig already exists, skipping"
+fi
+
 
 # if ! command -v solargraph &> /dev/null; then
 #   echo "💎 Installing solargraph"
