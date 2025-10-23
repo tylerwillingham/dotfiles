@@ -19,13 +19,6 @@ if [ ! -f "$HOME/.zshenv" ]; then
   touch "$HOME/.zshenv"
 fi
 
-if command -v tmux &> /dev/null; then
-  echo "∙ Copying tmux configuration"
-  ln -fs "$PWD/tmux.conf" "$HOME/.tmux.conf"
-else
-  echo "⚠️ tmux is not installed, skipping configuration"
-fi
-
 if [ ! -f "$HOME/.gitconfig" ]; then
   echo "∙ Setting up git configuration"
   ln -fs "$PWD/gitconfig" "$HOME/.gitconfig"

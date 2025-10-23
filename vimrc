@@ -10,7 +10,6 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'chriskempson/base16-vim'
-Plug 'christoomey/vim-tmux-runner'
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
 Plug 'janko-m/vim-test'

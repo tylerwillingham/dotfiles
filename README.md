@@ -28,18 +28,6 @@ brew install oh-my-zsh
 ln -s ./zshrc ~/.zshrc
 ```
 
-## Tmux
-
-My tmux configuration is super basic and doesn't change much
-
-```bash
-brew install tmux
-```
-
-```bash
-ln -s ./tmux.conf ~/.tmux.conf
-```
-
 ## Editor details
 
 I've recently switched from vim to neovim and in the process I'm evaluating how relevant individual

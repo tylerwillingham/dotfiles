@@ -26,7 +26,6 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'L3MON4D3/LuaSnip' " snippet support, required for nvim-cmp
 Plug 'saadparwaiz1/cmp_luasnip'
 
-Plug 'christoomey/vim-tmux-runner'
 Plug 'janko-m/vim-test'
 Plug 'numToStr/Comment.nvim' " line commenting for neovim
 Plug 'tpope/vim-endwise' " Auto completion for ruby `do;end`
@@ -109,7 +108,7 @@ nnoremap tn :tabedit .<return>
 nnoremap to :tabo<return>
 nnoremap tx :tabclose<return>
 
-let test#strategy = 'vtr'
+let test#strategy = 'neovim'
 
 " Switch b/w last two files
 nnoremap <Leader><Leader> <c-^>
