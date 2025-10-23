@@ -9,7 +9,6 @@
                         "product_id": 256,
                         "vendor_id": 13364
                     },
-                    "ignore": true,
                     "simple_modifications": [
                         {
                             "from": { "key_code": "escape" },
