@@ -1,0 +1,29 @@
+{
+  "name": "tylerwillingham",
+  "owner": {
+    "name": "Tyler Willingham"
+  },
+  "metadata": {
+    "description": "Custom Claude Code skills for database optimization, git workflows, and Rails development utilities"
+  },
+  "plugins": [
+    {
+      "name": "git-commits",
+      "source": "./claude/skills/git-commits",
+      "description": "Instructions on how to author git commits with best practices",
+      "version": "1.0.0"
+    },
+    {
+      "name": "hypopg",
+      "source": "./claude/skills/hypopg-help",
+      "description": "Help for preparing hypothetical indexes to be run in higher environments",
+      "version": "1.0.0"
+    },
+    {
+      "name": "take-latest-schema-timestamp",
+      "source": "./claude/skills/take-latest-schema-timestamp",
+      "description": "Resolve schema conflicts by keeping the more recent timestamp in db/schema.rb",
+      "version": "1.0.0"
+    }
+  ]
+}
