@@ -4,7 +4,8 @@
 [commit]
 	gpgsign = true
 [rebase]
-	autosquash = true
+	autoSquash = true
+	autoStash = true
 [pull]
 	rebase = true
 [core]
