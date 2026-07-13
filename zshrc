@@ -72,7 +72,6 @@ source $ZSH/oh-my-zsh.sh
 alias c="clear;"
 alias bc="bin/rails c"
 alias cbc="clear;bin/rails c"
-alias pr="powder restart"
 
 alias gt="git town"
 
