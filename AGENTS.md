@@ -18,11 +18,12 @@ When you are authoring on behalf of me, read [`.agents/VOICE.md`](.agents/VOICE.
 
 ## Repository specifics
 
-This is a personal dotfiles repo. Config files live here and are symlinked into `$HOME` (or backed up first). There is no build/test/lint tooling — changes are verified by re-running the install scripts, which are idempotent and safe to re-run.
+Personal dotfiles repo: configs here are symlinked into `$HOME`. There is no build/test/lint tooling — verify changes by re-running `./install.sh` (idempotent, safe to re-run).
 
-- `install.sh` is the entrypoint. It dispatches to `macos-install.sh` (default) or `linux-install.sh` (when `apt-get` exists), then handles oh-my-zsh, `~/.zshrc`, and `~/.gitconfig`.
-- The install scripts only symlink a subset of configs: `zshrc`, `gitconfig`, and `.config/karabiner`. Most editor configs (`nvim/`, `vimrc`, `lvim/`) are symlinked manually per README. `config/ghostty` is **not** wired into any install script yet — add it to `macos-install.sh` via `link_config` if that's the intent.
-- Machine/language-specific env belongs in `~/.zshenv` (not tracked here); `zshrc` expects it to set themes and `EDITOR`.
+- `install.sh` is the entrypoint: dispatches to `macos-install.sh` (default) or `linux-install.sh` (when `apt-get` exists), installs oh-my-zsh if missing, symlinks `~/.zshrc` (via `ln -fs` — clobbers any existing file) and `~/.gitconfig` (skipped if one already exists), and touches an empty `~/.zshenv` if none exists.
+- `link_config` (in `macos-install.sh`) is the safe symlink helper: it backs up a pre-existing real file/dir with a timestamp before linking. Currently only `.config/karabiner` uses it; `config/ghostty` is **not** wired in yet — add it via `link_config` if that's the intent.
+- Only `zshrc`, `gitconfig`, and `.config/karabiner` are wired into install scripts. Editor configs (`nvim/`, `vimrc`, `lvim/`) are symlinked manually per README.
+- Machine/language-specific env belongs in `~/.zshenv` (not tracked here); `zshrc` sources it and expects it to set `ZSH_THEME` and `EDITOR`.
 
 ## Claude skills
 
