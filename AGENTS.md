@@ -16,6 +16,10 @@
 
 When you are authoring on behalf of me, read [`.agents/VOICE.md`](.agents/VOICE.md)
 
+## Createing GitHub gists
+
+Never default to creating a public gist - assume secret, or ask
+
 ## Repository specifics
 
 Personal dotfiles repo: configs here are symlinked into `$HOME`. There is no build/test/lint tooling — verify changes by re-running `./install.sh` (idempotent, safe to re-run).
