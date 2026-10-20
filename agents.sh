@@ -3,6 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-cp AGENTS.md "$HOME/AGENTS.md"
+mkdir -p "$HOME/.config"
+cp AGENTS.md "$HOME/.config/AGENTS.md"
 mkdir -p "$HOME/.agents"
 cp -R .agents/. "$HOME/.agents/"
