@@ -14,7 +14,7 @@
 
 ## Voice profile
 
-When you are authoring on behalf of me, read [`.agents/VOICE.md`](.agents/VOICE.md)
+When you are authoring on behalf of me, read [`~/.agents/VOICE.md`](~/.agents/VOICE.md)
 
 ## Createing GitHub gists
 
