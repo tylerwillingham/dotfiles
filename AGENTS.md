@@ -6,7 +6,6 @@
 
 ## Coding guidelines
 
-- NEVER add commit co-authorship
 - Don't contribute to the following files unlesss explicitly asked to.
   They should be reserved for human additions by default:
   + README.md
